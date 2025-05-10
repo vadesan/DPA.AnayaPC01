@@ -1,0 +1,6 @@
+@DPA.AnayaPC01.API_HostAddress = http://localhost:5072
+
+GET {{DPA.AnayaPC01.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

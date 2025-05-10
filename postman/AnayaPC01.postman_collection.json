@@ -1,0 +1,123 @@
+{
+	"info": {
+		"_postman_id": "6fbbd720-5f18-4935-b2d0-e15f09a64971",
+		"name": "AnayaPC01",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3127476",
+		"_collection_link": "https://orange-sunset-674184.postman.co/workspace/warpi~58423547-9ace-469f-b8c5-35f4981f6b7d/collection/3127476-6fbbd720-5f18-4935-b2d0-e15f09a64971?action=share&source=collection_link&creator=3127476"
+	},
+	"item": [
+		{
+			"name": "listar canchas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5072/api/canchas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5072",
+					"path": [
+						"api",
+						"canchas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ver cancha",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5072/api/canchas/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5072",
+					"path": [
+						"api",
+						"canchas",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eliminar cancha",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5072/api/canchas/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5072",
+					"path": [
+						"api",
+						"canchas",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "crear cancha",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5072/api/canchas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5072",
+					"path": [
+						"api",
+						"canchas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "editar cancha",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5072/api/canchas/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5072",
+					"path": [
+						"api",
+						"canchas",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

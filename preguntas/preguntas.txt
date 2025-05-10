@@ -1,0 +1,11 @@
+a. ¿Qué dificultades tuviste durante el scaffolding y cómo las solucionaste?
+la conexión a la base de datos no la tenia bien configurada
+
+b. ¿Qué diferencias notaste entre usar un controlador autogenerado y uno con repository? ¿Qué enfoque prefieres?
+el autogenerado es una base para controladores simples, pero para controladores mas elaborados seria mejor unas uno con repository
+
+c. ¿Qué buenas prácticas implementaste (en código real) y por qué?
+documentar el codigo con futuras modificaciones que se podrían hacer, luego fui completando esas recomendaciones
+
+d. ¿Usaste herramientas de IA en esta práctica? (Tranquilo(a) que si es válido) ¿Qué herramientas usaste y en que parte del proyecto?
+copilot, para solucionar un tema de dependencias entre los proyectos
